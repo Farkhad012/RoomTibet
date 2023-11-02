@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+    .header {
+        width: 390px;
+
+    }
+
+    .header__logo img {
+        width: 84px;
+        height: 44px;
+    }
+
+    .header__body-title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__user-nav {
+        display: none;
+    }
+
+    .custom-selected {
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Next Art";
+    src: local("NEXT ART_Light"),
+    url(/Fonts/NEXT\ ART_Light.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Next Art" sans-serif;
+    src: local("NEXT ART_Regular"),
+         url(/Fonts/NEXT\ ART_Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Next Art";
+    src: local("NEXT ART_SemiBold"),
+         url(/Fonts/NEXT\ ART_SemiBold.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Next Art";
+    src: local("NEXT ART_Bold"),
+         url(/Fonts/NEXT\ ART_Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Next Art";
+    src: local("NEXT ART_Heavy"),
+         url(/Fonts/NEXT\ ART_Heavy.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
