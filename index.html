@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/fonts.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/adaptive.css">
+    <!-- <link rel="stylesheet" href="CSS/adaptive.css"> -->
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap"
         rel="stylesheet">
@@ -43,9 +43,7 @@
                                 </li>
                                 <li class="header__nav-item">
                                     <a href="#" class="header__nav-link">Контакты</a>
-                                </li>
-                                <li class="header__nav-item"><a href="" class="header__nav-link"></a>
-                                </li>
+                                </li>                                
                             </ul>
                         </nav>
                         <div class="header__user-nav">
@@ -98,7 +96,7 @@
                                     <button class="button button--search_form">Найти программу</button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="input-description">
                                 <td>
                                     <label for="button">
                                         <span class="search__form-input_description">выберите из списка</span>
@@ -315,12 +313,12 @@
                             <div class="blog__item">
                                 <div class="blog__item_image"></div>
                                 <div class="blog__item_content">
-                                    <h6>Красивая Италия, какая она в реальности?</h6>
+                                    <h6  class="blog__item_title">Красивая Италия, какая она в реальности?</h6>
                                     <p class="blog__item_body">Для современного мира базовый вектор развития
                                         предполагает независимые способы реализации соответствующих условий активизации.
                                     </p>
                                     <div class="blog_item_footer">
-                                        <div class="blog_item_date">01/04/2023</div>
+                                        <div class="blog_item_date text__yellow">01/04/2023</div>
                                         <a href="#" class="read-all">читать статью</a>
                                     </div>
                                 </div>
@@ -328,11 +326,11 @@
                             <div class="blog__item">
                                 <div class="blog__item_image"></div>
                                 <div class="blog__item_content">
-                                    <h6>Долой сомнения! Весь мир открыт для вас!</h6>
+                                    <h6 class="blog__item_title">Долой сомнения! Весь мир открыт для вас!</h6>
                                     <p class="blog__item_body">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации ... независимые способы реализации соответствующих условий
                                     </p>
                                     <div class="blog_item_footer">
-                                        <div class="blog_item_date">01/04/2023</div>
+                                        <div class="blog_item_date text__yellow">01/04/2023</div>
                                         <a href="#" class="read-all">читать статью</a>
                                     </div>
                                 </div>
@@ -340,12 +338,12 @@
                             <div class="blog__item">
                                 <div class="blog__item_image"></div>
                                 <div class="blog__item_content">
-                                    <h6>Как подготовиться к путешествию в одиночку? </h6>
+                                    <h6 class="blog__item_title">Как подготовиться к путешествию в одиночку? </h6>
                                     <p class="blog__item_body">Для современного мира базовый вектор развития
                                         предполагает независимые способы реализации соответствующих условий активизации.
                                     </p>
                                     <div class="blog_item_footer">
-                                        <div class="blog_item_date">01/04/2023</div>
+                                        <div class="blog_item_date text__yellow">01/04/2023</div>
                                         <a href="#" class="read-all">читать статью</a>
                                     </div>
                                 </div>
@@ -353,11 +351,11 @@
                             <div class="blog__item">
                                 <div class="blog__item_image"></div>
                                 <div class="blog__item_content">
-                                    <h6>Индия ... летим?</h6>
+                                    <h6 class="blog__item_title">Индия ... летим?</h6>
                                     <p class="blog__item_body">Для современного мира базовый
                                     </p>
                                     <div class="blog_item_footer">
-                                        <div class="blog_item_date">01/04/2023</div>
+                                        <div class="blog_item_date text__yellow">01/04/2023</div>
                                         <a href="#" class="read-all">читать статью</a>
                                     </div>
                                 </div>
@@ -385,27 +383,27 @@
                         <button class="button">Наш pinterest</button>
                     </div>
                 </div>
+                <div class="subscribe__top">
+                    <div class="subscribe__top_title">
+                        <h2 class="first__title text__yellow ">актуально</h2>
+                        <h3 class="second__title">Получайте полезные рассылки о путешествиях</h3>
+                    </div>
+                    <div class="subscribe__top_form">
+                        <span class="subscribe__top_form-description">Введите e-mail адрес</span>
+                        <div class="subscribe__top_form-items">
+                            <input class="subscribe__top_form-input" type="email" name="email" placeholder="name@domain.com">
+                            <button class="button">Подписаться на новости</button>
+                        </div>
+                        <span class="subscribe__top_form-description">подписываясь на новости, вы автоматически
+                            соглашаетесь с <a href="#">условиями обработки персональных данных</a> и <a
+                                href="#">правилами рекламных рассылок</a></span>
+                    </div>
+                </div>
             </div>            
         </main>
         <footer id="footer" class="footer">
             <div class="container">
                 <div class="footer__inner">
-                    <div class="footer__top">
-                        <div class="footer__top_title">
-                            <h2 class="first__title text__yellow ">актуально</h2>
-                            <h3 class="second__title">Получайте полезные рассылки о путешествиях</h3>
-                        </div>
-                        <div class="footer__top_form">
-                            <span class="footer__top_form-description">Введите e-mail адрес</span>
-                            <div class="footer__top_form-items">
-                                <input class="footer__top_form-input" type="email" name="email">
-                                <button class="button">Подписаться на новости</button>
-                            </div>
-                            <span class="footer__top_form-description">подписываясь на новости, вы автоматически
-                                соглашаетесь с <a href="#">условиями обработки персональных данных</a> и <a
-                                    href="#">правилами рекламных рассылок</a></span>
-                        </div>
-                    </div>
                     <div class="footer__links">
                         <div class="footer__links_info">
                             <div class="footer__links_title">

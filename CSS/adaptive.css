@@ -1,18 +1,28 @@
-@media (max-width: 1200px) {
+@media (max-width: 1390px) {
+
+    .button {
+        margin: 0 auto;
+    }
+
     .header {
         width: 390px;
-
+        height: 600px;
+        position: relative;
+        padding: 0 16px;
     }
 
     .header__logo img {
+        align-items: start;
         width: 84px;
         height: 44px;
     }
 
     .header__body-title {
+        /* width: 345px; */
         font-size: 28px;
         font-weight: 700;
         line-height: 42px;
+        top: 298px;
     }
 
     .header__nav-list {
@@ -25,5 +35,243 @@
 
     .custom-selected {
         display: none;
+    }
+
+    .custom-select {
+        display: none;
+    }
+
+    .search__form-input {
+        display: none;
+    }
+
+    .input-description {
+        display: none;
+    }
+
+    .search__form {
+        background: none;
+    }
+
+    .button--search_form {
+        position: absolute;
+        bottom: 50px;
+        left: 16px;
+    }
+
+    /* ABOUT ====================================================== */
+
+    .about__inner {
+        flex-direction: column-reverse;
+    }
+
+    .about__inner {
+        width: 390px;
+        padding: 50px 16px;
+        gap: 40px;
+    }
+
+    .about__text {
+        width: 348px;
+        gap: 24px;
+    }
+
+    .first__title {
+        font-size: 16px;
+    }
+
+    .second__title {
+        font-size: 24px;
+    }
+
+    .text__content {
+        font-size: 16px;
+    }
+
+    /* ______________________ */
+
+    .about__img--top {
+        display: none;
+    }
+
+
+    .about__img_box {
+        width: 358px;
+        height: 416px;
+    }
+
+    .about__img--bottom {
+        top: 0px;
+        left: 0px;
+        width: 358px;
+        height: 416px;
+    }
+
+    /* OFFER ========================================================= */
+
+    .block_gray {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .offer__img_box {
+        display: none;
+    }
+
+    .offer__inner {
+        width: 390px;
+    }
+
+    .offer__text {
+        gap: 32px;
+        /* width: 390px; */
+        padding: 50px 16px;
+        background-color: rgba(243, 245, 244, 1);
+    }
+
+    .text__content_features {
+        font-size: 14px;
+    }
+
+    /* POPULAR ======================================================= */
+    .popular__top {
+        align-items: flex-start;
+    }
+
+    .popular__inner {
+        padding: 50px 16px;
+        align-items: flex-start;
+    }
+
+    .popular__img_box {
+        width: calc(390px - 16px);
+        /* overflow: hidden;/ */
+    }
+
+    .popular__img {
+        min-width: 285px;
+        height: 400px;
+    }
+
+
+    .popular__img_description-box {
+        width: 285px;
+        top: 330px;
+        padding: 23px 24px;
+        /* top: 0; */
+    }
+
+    .popular__img_description-header {
+        align-items: flex-start;
+        gap: 0px;
+    }
+
+    .popular__img_description-title {
+        font-size: 18px;
+
+        white-space: nowrap;
+    }
+
+    .popular__img_description-subtitle {
+        display: none;
+    }
+
+    .popular__img_description-price {
+        font-size: 16px;
+        padding: 6px 12px;
+        white-space: nowrap;
+    }
+
+    .popular__img_description-text {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    /* BLOG ========================================================== */
+
+    .blog__inner {
+        align-items: flex-start;
+        padding: 0 16px;
+        /* overflow: hidden; */
+    }
+
+    .blog__top {
+        align-items: start;
+    }
+
+    .blog__body {
+        width: 390px;
+    }
+
+
+    .blog__body {
+        flex-wrap: nowrap;
+        gap: 24px;
+        /* overflow: hidden; */
+    }
+
+    .blog__item {
+        flex-direction: column;
+        gap: 16px;
+        padding: 0;
+    }
+
+    .blog__item .blog__item_image {
+        width: 285px;
+        height: 280px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    .blog__item_body {
+        font-size: 14px;
+        flex: none;
+    }
+
+    .blog__item_content {
+        padding: 0 16px 16px 16px;
+        gap: 16px;
+    }
+
+    /* REPORT ================================================================ */
+
+    .report__top {
+        align-items: flex-start;
+    }
+    
+    .report__inner {
+        width: 390px;
+        align-items: flex-start;
+        padding: 50px 16px;
+        gap: 32px;
+
+    }
+    
+    .report__body {
+        flex-wrap: nowrap;
+    }
+    
+    .report__image {
+        width: 280px;
+        height: 250px;
+    }
+
+
+    /* FOOTER ============================================================= */
+
+    .footer__links {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer {
+        width: 390px;
+        padding: 50px 16px;
+    }
+
+    .info__text {
+        width: 334px;
     }
 }
