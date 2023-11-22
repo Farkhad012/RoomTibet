@@ -1,8 +1,8 @@
 new AirDatepicker('#airdatepicker', {
-  buttons: ['today', 'clear'],
-  range: true,
-  multipleDatesSeparator: ' - ',
-  position: 'right center',
+    buttons: ['today', 'clear'],
+    range: true,
+    multipleDatesSeparator: ' - ',
+    position: 'right center',
 });
 
 // HEADER ===================================================================
@@ -37,6 +37,23 @@ selectContainers.forEach(function (selectContainer) {
         }
     });
 });
+
+// BURGER-MENU ===============================================================
+
+let burgerMenuIcon = document.querySelector(".burger__menu-icon");
+let headerNav = document.querySelector(".header__nav");
+
+burgerMenuIcon.addEventListener("click", function (e) {
+    headerNav.classList.toggle("open");
+    e.stopPropagation(); // Остановка всплытия события, чтобы не срабатывал document.click
+});
+
+document.addEventListener("click", function (e) {
+    if (!burgerMenuIcon.contains(e.target) && !headerNav.contains(e.target)) {
+        headerNav.classList.remove("open");
+    }
+});
+
 
 // POPULAR ===================================================================
 
