@@ -131,7 +131,7 @@ h6 {
 /* HEADER ========================================================== */
 
 .header {
-    background: url('/Images/Background_header_small.jpg') 100% 100% / cover no-repeat;
+    background: url('../Images/Background_header_small.jpg') 100% 100% / cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -301,7 +301,7 @@ h6 {
 }
 
 .header__nav.open .burger__menu-icon span:nth-child(1) {
-    transform: translateY(0px) rotate(45deg);
+    transform: translateY(0px) rotate(-45deg);
 }
 
 .header__nav.open .burger__menu-icon span:nth-child(2) {
@@ -309,7 +309,7 @@ h6 {
 }
 
 .header__nav.open .burger__menu-icon span:nth-child(3) {
-    transform: translateY(0px) rotate(-45deg);
+    transform: translateY(0px) rotate(45deg);
     width: 22px;
 }
 
@@ -524,7 +524,7 @@ h6 {
 
 
 .about__img--top {
-    background-image: url(/Images/mountain_1.jpg);
+    background-image: url(../Images/mountain_1.jpg);
     background-size: cover;
     background-position: 50% 50%;
     position: absolute;
@@ -538,7 +538,7 @@ h6 {
 }
 
 .about__img--bottom {
-    background-image: url(/Images/mountain_2.jpg);
+    background-image: url(../Images/mountain_2.jpg);
     background-size: cover;
     background-position: 50% 50%;
     position: absolute;
@@ -650,15 +650,15 @@ h6 {
 }
 
 .icon_1 {
-    background-image: url(/Images/Icons/Frame1.svg);
+    background-image: url(../Images/Icons/Frame1.svg);
 }
 
 .icon_2 {
-    background-image: url(/Images/Icons/Frame2.svg);
+    background-image: url(../Images/Icons/Frame2.svg);
 }
 
 .icon_3 {
-    background-image: url(/Images/Icons/Frame3.svg);
+    background-image: url(../Images/Icons/Frame3.svg);
 }
 
 
@@ -700,19 +700,19 @@ h6 {
 }
 
 .offer__img:nth-child(1) {
-    background-image: url(/Images/offer\ \(01\).jpg);
+    background-image: url(../Images/offer\ \(01\).jpg);
 }
 
 .offer__img:nth-child(2) {
-    background-image: url(/Images/offer\ \(02\).jpg);
+    background-image: url(../Images/offer\ \(02\).jpg);
 }
 
 .offer__img:nth-child(3) {
-    background-image: url(/Images/offer\ \(03\).jpg);
+    background-image: url(../Images/offer\ \(03\).jpg);
 }
 
 .offer__img:nth-child(4) {
-    background-image: url(/Images/offer\ \(04\).jpg);
+    background-image: url(../Images/offer\ \(04\).jpg);
 }
 
 /* POPULAR ========================================================== */
@@ -774,27 +774,27 @@ h6 {
 }
 
 .popular__img:nth-child(1) {
-    background-image: url(/Images/popular_directions1.jpg);
+    background-image: url(../Images/popular_directions1.jpg);
 }
 
 .popular__img:nth-child(2) {
-    background-image: url(/Images/popular_directions2.jpg);
+    background-image: url(../Images/popular_directions2.jpg);
 }
 
 .popular__img:nth-child(3) {
-    background-image: url(/Images/popular_directions3.jpg);
+    background-image: url(../Images/popular_directions3.jpg);
 }
 
 .popular__img-open:nth-child(1) {
-    background-image: url(/Images/popular_directions1.jpg);
+    background-image: url(../Images/popular_directions1.jpg);
 }
 
 .popular__img-open:nth-child(2) {
-    background-image: url(/Images/popular_directions2.jpg);
+    background-image: url(../Images/popular_directions2.jpg);
 }
 
 .popular__img-open:nth-child(3) {
-    background-image: url(/Images/popular_directions3.jpg);
+    background-image: url(../Images/popular_directions3.jpg);
 }
 
 .popular__img_rate {
@@ -824,7 +824,7 @@ h6 {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url(/Images/Icons/ic_round-star.svg);
+    background-image: url(../Images/Icons/ic_round-star.svg);
     background-size: cover;
     margin-right: 4px;
 }
@@ -998,28 +998,28 @@ h6 {
 }
 
 .blog__item:nth-child(1) .blog__item_image {
-    background: url(/Images/travel_blog1.jpg);
+    background: url(../Images/travel_blog1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .blog__item:nth-child(2) .blog__item_image {
-    background: url(/Images/travel_blog2.jpg);
+    background: url(../Images/travel_blog2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .blog__item:nth-child(3) .blog__item_image {
-    background: url(/Images/travel_blog3.jpg);
+    background: url(../Images/travel_blog3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .blog__item:nth-child(4) .blog__item_image {
-    background: url(/Images/travel_blog4.jpg);
+    background: url(../Images/travel_blog4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -1148,27 +1148,27 @@ h6 {
 }
 
 .report__image:nth-child(1) {
-    background-image: url(/Images/impressions1.jpg);
+    background-image: url(../Images/impressions1.jpg);
 }
 
 .report__image:nth-child(2) {
-    background-image: url(/Images/impressions2.jpg);
+    background-image: url(../Images/impressions2.jpg);
 }
 
 .report__image:nth-child(3) {
-    background-image: url(/Images/impressions3.jpg);
+    background-image: url(../Images/impressions3.jpg);
 }
 
 .report__image:nth-child(4) {
-    background-image: url(/Images/impressions4.jpg);
+    background-image: url(../Images/impressions4.jpg);
 }
 
 .report__image:nth-child(5) {
-    background-image: url(/Images/impressions5.jpg);
+    background-image: url(../Images/impressions5.jpg);
 }
 
 .report__image:nth-child(6) {
-    background-image: url(/Images/impressions6.jpg);
+    background-image: url(../Images/impressions6.jpg);
 }
 
 .subscribe__top {
@@ -1349,7 +1349,7 @@ h6 {
     width: 5.875px;
     height: 10px;
     margin-right: 8px;
-    background: url(/Images/Icons/Group.svg) no-repeat;
+    background: url(../Images/Icons/Group.svg) no-repeat;
     background-size: cover;
     transition: 3s;
 }
