@@ -212,12 +212,12 @@ h6 {
         background: rgba(26, 62, 62, 0.9);
         padding: 50px 16px;
         right: -22px;
-        top: -420px;
+        top: -440px;
         transition: all 0.3s ease-in-out;
     }
 
-    .opened {
-        top: -20px;
+    .header__nav.open .header__nav-list{
+        top: -40px;
         transition: 0.5s;
     }
 }
