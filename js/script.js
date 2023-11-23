@@ -41,10 +41,13 @@ selectContainers.forEach(function (selectContainer) {
 // BURGER-MENU ===============================================================
 
 let burgerMenuIcon = document.querySelector(".burger__menu-icon");
-let headerNav = document.querySelector(".header__nav-list");
+let headerNav = document.querySelector(".header__nav");
+let headerNavList = document.querySelector(".header__nav-list");
 
 burgerMenuIcon.addEventListener("click", function (e) {
     headerNav.classList.toggle("open");
+    headerNavList.classList.toggle("opened");
+
     // e.stopPropagation(); // Остановка всплытия события, чтобы не срабатывал document.click
 });
 
