@@ -31,6 +31,8 @@ aside {
 
 html,
 body {
+  font-family: 'Nunito Sans';
+
   height: 100%;
   width: 100%;
   font-size: 100%;
