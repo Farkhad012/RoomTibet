@@ -126,3 +126,23 @@ h6 {
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 1390px) {
+    .slider__wrapper {
+        display: flex;
+        grid-gap: 1rem;
+        max-width: 768px;
+        width: 100%;
+        overflow-x: auto;
+        scroll-snap-type: x;
+    }
+
+    .slider {
+        min-width: 285px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* scroll-snap-align: start;  */
+        
+    }
+}

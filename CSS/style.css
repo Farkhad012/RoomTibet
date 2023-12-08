@@ -269,7 +269,7 @@
 @media screen and (max-width: 1390px) {
     .popular__img_box {
         overflow-x: auto;
-        white-space: nowrap;
+        /* white-space: nowrap; */
     }
 }
 
