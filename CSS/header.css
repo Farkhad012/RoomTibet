@@ -87,7 +87,8 @@
   }
 
   .header__nav.open .header__nav-list {
-    width: 400px;
+    width: 401px;
+    /* padding: 50px 20px; */
     height: 100vh;
     top: -40px;
     transition: 0.5s;
