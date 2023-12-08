@@ -76,7 +76,7 @@
     align-items: flex-start;
     gap: 16px;
     position: absolute;
-    width: 100vw;
+    width: 400px;
     height: 400px;
     font-size: 14px;
     background: rgba(26, 62, 62, 0.9);
@@ -87,7 +87,7 @@
   }
 
   .header__nav.open .header__nav-list {
-    width: 100vw;
+    width: 400px;
     height: 100vh;
     top: -40px;
     transition: 0.5s;
