@@ -49,12 +49,15 @@ burgerMenuIcon.addEventListener("click", function (e) {
     // headerNavList.classList.toggle("opened");
 
     // e.stopPropagation(); // Остановка всплытия события, чтобы не срабатывал document.click
+    document.body.style.overflowY = 'hidden';
 });
 
 document.addEventListener("click", function (e) {
     if (!burgerMenuIcon.contains(e.target) && !headerNav.contains(e.target)) {
         headerNav.classList.remove("open");
+        document.body.style.overflowY = 'visible';
     }
+    
 });
 
 
@@ -74,3 +77,34 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// SLIDER__WRAPPER
+
+const sliderWrapper = document.querySelector('.slider__wrapper');
+
+let pressed = false;
+let startX = 0;
+
+sliderWrapper.addEventListener('mousedown', function (e) {
+    pressed = true;
+    startX = e.clientX;
+    this.style.cursor = 'grabbing';
+
+    console.log(startX);
+})
+
+window.addEventListener('mouseleave', function (e) {
+    pressed = false;
+})
+
+window.addEventListener('mouseup', function (e) {
+    pressed = false;
+    sliderWrapper.style.cursor = 'grab';
+})
+
+window.addEventListener('mousemove', function (e) {
+    if(!pressed) {
+        return
+    }
+
+    this.scrollLeft += startX - e.clientX
+})
